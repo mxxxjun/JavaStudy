@@ -45,6 +45,13 @@ public class Main {
         Hello.morning();
         Hello.lunch();
         Hello.evening();
+        System.out.println();
+        NoteBook Sens = new NoteBook("Intel Core i7", 4, 500);
+        NoteBook XNote = new NoteBook("AMD 라이젠", 2, 320);
+        Sens.printSpec();
+        XNote.printSpec();
+        Sens.upgrade(8, 750);
+        Sens.printSpec();
 
     }
 }
