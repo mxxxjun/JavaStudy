@@ -1,34 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        Car korando = new Car();
-        korando.name = "코란도C";
-        korando.gasoline = false;
+        Car korando = new Car("코란도C", false);
 
         korando.run();
         korando.stop();
         System.out.println();
-
-        System.out.print(korando.name + " : ");
+        korando.init("제네시스", true);
         korando.run();
+        korando.stop();
+        System.out.println();
+        Time now1 = new Time(true, 12, 34, 56);
+        now1.whatTime();
 
-        Car equus = new Car();
-        equus.name = "에꿍스";
-        equus.gasoline = true;
-        System.out.print(equus.name + " : ");
-        equus.run();
-
-        System.out.println('\n');
-        Time now = new Time();
-        now.am = true;
-        now.hour = 12;
-        now.minute = 34;
-        now.second = 56;
-
-        now.whatTime();
-
-        Human kim = new Human();
-        kim.age = 29;
-        kim.name = "김상형";
-        kim.intro();
+        Time now2 = new Time(true, 12, 34);
+        now2.whatTime();
+        Time today = new Time(18, 30);
+        today.whatTime();
     }
 }
