@@ -16,5 +16,11 @@ public class Main {
         now2.whatTime();
         Time today = new Time(18, 30);
         today.whatTime();
+
+        Time now3 = new Time();
+        now3.whatTime();
+        System.out.println();
+        InitTest init = new InitTest();
+        System.out.println(init.field);
     }
 }

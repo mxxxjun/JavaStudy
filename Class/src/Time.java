@@ -1,8 +1,25 @@
+import java.time.LocalDateTime;
+
 public class Time {
-    boolean am;
-    int hour;
-    int minute;
-    int second;
+    boolean am = true;
+    int hour = 12;
+    int minute = 0;
+    int second = 0;
+
+    {
+        LocalDateTime now = LocalDateTime.now();
+        hour = now.getHour();
+        if(hour >= 12){
+            hour -= 12;
+            am = false;
+        } else{
+            am = true;
+        }
+        minute = now.getMinute();
+        second = now.getSecond();
+    }
+
+    Time() {}
 
     Time(boolean am, int hour, int minute, int second){
         this.am = am;
