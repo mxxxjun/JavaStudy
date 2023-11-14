@@ -13,6 +13,20 @@ public class Student extends Human{
         this.major = major;
     }
 
+    /*
+    void intro(){
+        super.intro();
+        System.out.println(major + "학과 " + stnum + "학번 " + name + "입니다.");
+    }
+
+     */
+
+    @Override
+    void intro() {
+        super.intro();
+        System.out.println(major + "학과 " + stnum + "학번 " + name + "입니다.");
+    }
+
     void study(){
         System.out.println("하늘천 따지 검을현 누를황");
     }

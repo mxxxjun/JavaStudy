@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        /*
         Human kim = new Human(29, "김상형");
         kim.intro();
         Student lee = new Student(42, "이승우", 9312345, "경영");
@@ -31,5 +32,16 @@ public class Main {
 
         Thief hong = new Thief(15, "홍길동", "부자집", 2);
         hong.steal();
+
+        System.out.println();
+        Human kim2 = new Human(29, "김상형");
+        kim.intro();
+        Student lee2 = new Student(42, "이승우", 9312345, "경영");
+        lee2.intro();
+        System.out.println();
+
+         */
+        Human kim3 = new Human(29, "김상형", "i7 Core", 8, 2000);
+        kim3.intro();
     }
 }
