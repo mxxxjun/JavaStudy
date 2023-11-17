@@ -7,6 +7,7 @@ public class Main {
         zealot.move();
         zealot.attack();
 
+        //부모 객체 배열 선언 및 내부에는 자식 객체 저장
         Unit[] arUnit = {
                 new Marine(),
                 new Zealot(),
