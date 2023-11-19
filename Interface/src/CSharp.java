@@ -1,2 +1,2 @@
-final class CSharp extends Language{
+non-sealed class CSharp extends Language{
 }

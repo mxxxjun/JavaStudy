@@ -1,2 +1,2 @@
-abstract sealed class Language permits Java, Cpp, CSharp{
+abstract sealed public class Language permits Java, Cpp, CSharp{
 }
