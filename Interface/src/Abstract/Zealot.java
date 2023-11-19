@@ -1,3 +1,5 @@
+package Abstract;
+
 public class Zealot extends Unit{
     void move(){
         System.out.println("뒤뚱뒤뚱");

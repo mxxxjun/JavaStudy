@@ -1,3 +1,5 @@
+package Abstract;
+
 public class Marine extends Unit{
     void move(){
         System.out.println("아장아장");

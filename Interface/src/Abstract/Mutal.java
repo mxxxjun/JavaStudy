@@ -1,3 +1,5 @@
+package Abstract;
+
 public class Mutal extends Unit{
     void move(){
         System.out.println("퍼득 퍼득");

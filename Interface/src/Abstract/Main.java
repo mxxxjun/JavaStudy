@@ -1,3 +1,5 @@
+package Abstract;
+
 public class Main{
     public static void main(String[] args) {
         Marine marine = new Marine();
