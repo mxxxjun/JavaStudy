@@ -25,4 +25,8 @@ public class Human {
             return false;
         }
     }
+
+    public Object clone(){
+        return new Human(age, name);
+    }
 }
