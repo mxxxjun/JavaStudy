@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SysyemLibrary.iml" filepath="$PROJECT_DIR$/SysyemLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection.iml" filepath="$PROJECT_DIR$/Collection.iml" />
     </modules>
   </component>
 </project>
