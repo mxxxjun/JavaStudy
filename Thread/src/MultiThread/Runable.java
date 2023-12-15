@@ -1,3 +1,5 @@
+package MultiThread;
+
 public class Runable {
     public static void main(String[] args){
         PrintRunable2 print = new PrintRunable2();

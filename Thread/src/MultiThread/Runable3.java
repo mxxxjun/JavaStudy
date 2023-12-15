@@ -1,3 +1,5 @@
+package MultiThread;
+
 public class Runable3 {
     public static void main(String[] args){
         Thread worker = new Thread(mRunable);

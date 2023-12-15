@@ -1,3 +1,5 @@
+package MultiThread;
+
 import java.awt.*;
 
 public class BeepThread extends Thread{

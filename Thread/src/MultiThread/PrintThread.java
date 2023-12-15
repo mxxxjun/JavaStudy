@@ -1,3 +1,5 @@
+package MultiThread;
+
 public class PrintThread extends Thread{
     public void run(){
         for(int num=0; num < 30; num++){
