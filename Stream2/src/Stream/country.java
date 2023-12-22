@@ -2,8 +2,6 @@ package Stream;
 
 import java.util.*;
 
-enum Cont {ASIA, AFRICA, AMERICA, EUROPE}
-
 public class country {
     String name;
     Cont cont;
